@@ -23,10 +23,14 @@ It may be useful if you want to:
 
 ## Basic Usage
 
-1. Upload a reference image.
-2. Paste the prompt from [prompt.md](prompt.md).
+1. Attach the reference image as an image.
+2. Open [prompt.md](prompt.md), copy the full prompt text, and paste it directly into the image generation message.
 3. Generate a 2:1 equirectangular panorama.
 4. Check the result in a panorama or VR viewer.
+
+Important: Do not upload `prompt.md` as the prompt file and expect it to run automatically. For best results, open `prompt.md`, copy the full prompt text, paste it directly into the image generation message, and attach the reference image in the same request.
+
+The model may not treat an uploaded `.md` file as active generation instructions. This is a usage requirement of the workflow, not a change to the prompt itself.
 
 ## Important Note About Viewing
 
