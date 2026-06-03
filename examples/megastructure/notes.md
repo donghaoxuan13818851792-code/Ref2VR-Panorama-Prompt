@@ -11,9 +11,13 @@ This example tests whether Ref2VR Panorama Prompt can expand a futuristic megast
 
 ## Viewing note
 
-The generated panorama is a normal 2:1 equirectangular image file. In a normal image viewer, it will look like a very wide flat image. To experience it as a 360-degree environment, open it in a panorama viewer, VR viewer, or an app/web tool that supports equirectangular 360° projection.
+The output from GPT Image 2 is a 2:1 equirectangular panorama image. After downloading, it may look like a very wide flat image in a normal image viewer.
 
-This workflow creates a VR-viewable panorama image, not a standalone interactive 3D scene.
+To view it as a 360° environment, open it in a supported web viewer, app, or VR viewer and use the viewer's 360 mode, such as "Enter 360 world" or an equivalent option.
+
+`viewer-screenshot.png` shows the generated panorama opened in a supported viewer with an "Enter 360 world" option.
+
+This project generates VR-viewable panorama images. It does not generate a standalone interactive 3D world, so you need a compatible viewer to experience the image as a 360° scene.
 
 ## What worked
 

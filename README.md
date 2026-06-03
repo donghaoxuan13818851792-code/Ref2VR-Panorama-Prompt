@@ -30,11 +30,11 @@ It may be useful if you want to:
 
 ## Important Note About Viewing
 
-The generated panorama is saved as a normal 2:1 equirectangular image file. When opened in a normal image viewer, it will look like a very wide flat image.
+The output from GPT Image 2 is a 2:1 equirectangular panorama image. After downloading, it may look like a very wide flat image in a normal image viewer.
 
-To experience it as a 360-degree environment, open it in a panorama viewer, VR viewer, or an app/web tool that supports equirectangular 360° projection.
+To view it as a 360° environment, open it in a supported web viewer, app, or VR viewer and use the viewer's 360 mode, such as "Enter 360 world" or an equivalent option.
 
-This workflow creates a VR-viewable panorama image, not a standalone interactive 3D scene.
+This project generates VR-viewable panorama images. It does not generate a standalone interactive 3D world, so you need a compatible viewer to experience the image as a 360° scene.
 
 ## Key Features
 
@@ -52,8 +52,12 @@ This workflow creates a VR-viewable panorama image, not a standalone interactive
 - [prompt.md](prompt.md): Main reusable prompt
 - [checklist.md](checklist.md): Practical review checklist for generated panoramas
 - [limitations.md](limitations.md): Realistic limits and failure cases
-- [examples/](examples/): Placeholder for example runs and notes
+- [examples/](examples/): Examples and notes
 - Megastructure example: [examples/megastructure/](examples/megastructure/)
+
+## Demo
+
+The megastructure example includes `reference.png`, `result-panorama.png`, `viewer-screenshot.png`, and `notes.md`.
 
 ## Important Note
 

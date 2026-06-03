@@ -1,6 +1,6 @@
 # Examples
 
-This folder is a placeholder for example reference images, generated panoramas, and notes from test runs.
+This folder contains example reference images, generated panoramas, and notes from test runs.
 
 ## How to Add Examples
 
