@@ -8,6 +8,7 @@ Use this checklist after generating a panorama. The goal is not perfection, but 
 - The prompt is used with the reference image, not by itself.
 - The intended output is a 2:1 panorama.
 - The scene should expand from the reference image instead of inventing an unrelated world.
+- Test the result in a panorama or VR viewer, not only in a normal image viewer.
 
 ## Projection and Aspect Ratio
 

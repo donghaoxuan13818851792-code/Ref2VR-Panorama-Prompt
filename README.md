@@ -28,6 +28,14 @@ It may be useful if you want to:
 3. Generate a 2:1 equirectangular panorama.
 4. Check the result in a panorama or VR viewer.
 
+## Important Note About Viewing
+
+The generated panorama is saved as a normal 2:1 equirectangular image file. When opened in a normal image viewer, it will look like a very wide flat image.
+
+To experience it as a 360-degree environment, open it in a panorama viewer, VR viewer, or an app/web tool that supports equirectangular 360° projection.
+
+This workflow creates a VR-viewable panorama image, not a standalone interactive 3D scene.
+
 ## Key Features
 
 - Reference-image-based scene expansion
@@ -45,6 +53,7 @@ It may be useful if you want to:
 - [checklist.md](checklist.md): Practical review checklist for generated panoramas
 - [limitations.md](limitations.md): Realistic limits and failure cases
 - [examples/](examples/): Placeholder for example runs and notes
+- Megastructure example: [examples/megastructure/](examples/megastructure/)
 
 ## Important Note
 

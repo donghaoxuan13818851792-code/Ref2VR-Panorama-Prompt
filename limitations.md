@@ -11,6 +11,8 @@ This project is a prompt workflow, not a new image-generation model, 3D reconstr
 - Reflections, shadows, and lighting may not remain physically consistent across the full panorama.
 - Fine architectural geometry may bend, repeat, or fail to connect cleanly.
 - Generated details may drift away from the reference image if the model fills too much unknown space.
+- A 2:1 equirectangular image is not interactive by itself. It only becomes a 360° viewing experience when loaded into a compatible panorama or VR viewer.
+- This workflow does not create a movable 3D world; it creates a fixed-viewpoint 360° panorama image.
 
 ## Spatial Continuity
 
